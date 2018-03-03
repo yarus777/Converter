@@ -7,8 +7,8 @@
         <attr name="xnkv_deleteBackgroundColor" format="color|reference" />
     </declare-styleable>
 
-    <string name="app_id" translatable="false">skineditor</string>
-    <string name="pub_id" translatable="false">skineditor</string>
-    <string name="aff_id" translatable="false">factory</string>
-
+    <string name="app_id" translatable="false">converter</string>
+    <string name="pub_id" translatable="false">converter</string>
+    <string name="aff_id" translatable="false">mobiapps</string>
+    <string name="app_name" translatable="false">Units Converter - Calculator</string>
 </resources>
