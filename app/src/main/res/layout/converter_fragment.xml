@@ -14,7 +14,6 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
         android:layout_marginRight="@dimen/activity_horizontal_margin">
-
     </android.support.v7.widget.RecyclerView>
 
     <com.unit.converter.views.MyKeyboardView
@@ -25,13 +24,12 @@
         android:focusable="true"
         android:focusableInTouchMode="true"
         android:keyBackground="@drawable/selector_key_background"
-        android:keyTextColor="#000000"
+        android:keyTextColor="@color/colorPrimaryDark"
         android:shadowColor="@android:color/transparent"
         android:shadowRadius="0"
-        app:xnkv_deleteBackgroundColor="#d2d2d2"
-        android:background="#d2d2d2"
-        android:paddingBottom="8dp"
-        android:paddingTop="8dp"
-        android:paddingRight="8dp"/>
+        app:xnkv_deleteBackgroundColor="@color/whiteColor"
+        android:background="#F4F4F5"
+        android:paddingBottom="1dp"
+        android:paddingTop="1dp" />
 
 </RelativeLayout>

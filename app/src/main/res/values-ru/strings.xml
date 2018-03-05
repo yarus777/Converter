@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Заголовки фрагментов -->
-    <string name="main_fragment_title"></string>
+    <string name="main_fragment_title">Конвертер величин</string>
     <string name="settings_fragment_title">Настройки</string>
     <string name="favorites_fragment_title">Избранное</string>
     <!-- -->

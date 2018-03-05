@@ -6,7 +6,7 @@
 
     <string name="splash_fragment_title" translatable="false"></string>
     <string name="converter_fragment_title" translatable="false"></string>
-    <string name="main_fragment_title"></string>
+    <string name="main_fragment_title">Units Converter</string>
     <string name="settings_fragment_title">Settings</string>
     <string name="favorites_fragment_title">Favorires</string>
 

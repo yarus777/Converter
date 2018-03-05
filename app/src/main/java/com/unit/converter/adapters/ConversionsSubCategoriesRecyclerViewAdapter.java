@@ -2,7 +2,6 @@ package com.unit.converter.adapters;
 
 
 import android.content.Context;
-import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -31,7 +30,8 @@ public class ConversionsSubCategoriesRecyclerViewAdapter extends RecyclerView.Ad
 
     @Override
     public ConversionsSubCategoriesRecyclerViewAdapter.ConversionSubCategoryItem onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.subcategory_item, parent, false);
+        //View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.subcategory_item, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.subcategory_list_item, parent, false);
         return new ConversionsSubCategoriesRecyclerViewAdapter.ConversionSubCategoryItem(view);
     }
 
@@ -39,12 +39,18 @@ public class ConversionsSubCategoriesRecyclerViewAdapter extends RecyclerView.Ad
     public void onBindViewHolder(ConversionsSubCategoriesRecyclerViewAdapter.ConversionSubCategoryItem holder, final int position) {
         holder.mSubCategoryImage.setImageResource(mConversionCategoryList.get(position).getConversionImage());
         holder.mSubCategoryName.setText(mConversionCategoryList.get(position).getConversionName());
-        holder.mSubCategoryCard.setOnClickListener(new View.OnClickListener() {
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 mListener.onConversionClick(mConversionCategoryList.get(position));
             }
         });
+        /*holder.mSubCategoryCard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mListener.onConversionClick(mConversionCategoryList.get(position));
+            }
+        });*/
     }
 
     @Override
@@ -56,14 +62,14 @@ public class ConversionsSubCategoriesRecyclerViewAdapter extends RecyclerView.Ad
 
         TextView mSubCategoryName;
         ImageView mSubCategoryImage;
-        CardView mSubCategoryCard;
+        //CardView mSubCategoryCard;
 
         public ConversionSubCategoryItem(View itemView) {
             super(itemView);
             itemView.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
             mSubCategoryName = itemView.findViewById(R.id.subcategory_name);
             mSubCategoryImage = itemView.findViewById(R.id.subcategory_image);
-            mSubCategoryCard = itemView.findViewById(R.id.subcategory_card);
+            //mSubCategoryCard = itemView.findViewById(R.id.subcategory_card);
         }
     }
 }

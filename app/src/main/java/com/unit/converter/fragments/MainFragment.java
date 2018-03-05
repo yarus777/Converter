@@ -2,13 +2,14 @@ package com.unit.converter.fragments;
 
 
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
 
 import com.unit.converter.R;
+import com.unit.converter.adapters.ConversionsCategoriesListViewAdapter;
 import com.unit.converter.adapters.ConversionsCategoriesRecyclerViewAdapter;
 import com.unit.converter.conversions.Conversion;
 import com.unit.converter.conversions.Conversions;
@@ -26,6 +27,8 @@ public class MainFragment extends BaseFragment implements IOnConversionClick, IC
     private Conversions mConversions;
     private ConversionsCategoriesRecyclerViewAdapter mConversionsCategoriesRecyclerViewAdapter;
     private RecyclerView mCategoriesRecyclerView;
+    private ListView mCategoriesListView;
+    private ConversionsCategoriesListViewAdapter mConversionsCategoriesListViewAdapter;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -40,10 +43,15 @@ public class MainFragment extends BaseFragment implements IOnConversionClick, IC
         mMainActivity.setToolbarButtonsVisibility(false, true, true);
 
         mConversions = Conversions.getInstance();
-        mCategoriesRecyclerView = mCurrentView.findViewById(R.id.categories_recycler_view);
+
+        mCategoriesListView = mCurrentView.findViewById(R.id.categories_list_view);
+        mConversionsCategoriesListViewAdapter = new ConversionsCategoriesListViewAdapter(mMainActivity, mConversions, this);
+        mCategoriesListView.setAdapter(mConversionsCategoriesListViewAdapter);
+
+        /*mCategoriesRecyclerView = mCurrentView.findViewById(R.id.categories_recycler_view);
         mConversionsCategoriesRecyclerViewAdapter = new ConversionsCategoriesRecyclerViewAdapter(mMainActivity, mConversions, this);
         mCategoriesRecyclerView.setLayoutManager(new LinearLayoutManager(mMainActivity, LinearLayoutManager.VERTICAL, false));
-        mCategoriesRecyclerView.setAdapter(mConversionsCategoriesRecyclerViewAdapter);
+        mCategoriesRecyclerView.setAdapter(mConversionsCategoriesRecyclerViewAdapter);*/
     }
 
     @Override

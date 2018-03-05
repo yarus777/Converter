@@ -112,7 +112,7 @@ public class Conversions implements IConstants{
         List<Conversion> conversions = new ArrayList<>();
         conversions.add(getRadiationConversions());
         conversions.add(getSubRadioactivityConversions());
-        mConversions.add(new ConversionCategory(ConversionCategory.RADIOACTIVITY, R.string.radioactivity, R.drawable.ic_radioactivity, conversions));
+        mConversions.add(new ConversionCategory(ConversionCategory.RADIOACTIVITY, R.string.radioactivity, R.drawable.ic_radioactivity_category, conversions));
     }
 
     private void getChemistryConversions() {

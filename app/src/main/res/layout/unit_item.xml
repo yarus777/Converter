@@ -16,14 +16,16 @@
             android:layout_height="match_parent"
             android:layout_weight="0.4"
             android:text="@string/fluid_ounce"
-            android:gravity="center_vertical"/>
+            android:gravity="center_vertical"
+            android:textColor="@color/colorPrimaryDark"/>
 
 
          <EditText
              android:id="@+id/unit_edit"
              android:layout_width="0dp"
              android:layout_height="match_parent"
-             android:layout_weight="0.6">
+             android:layout_weight="0.6"
+             android:backgroundTint="@drawable/edit_text_tint">
          </EditText>
     </LinearLayout>
 </LinearLayout>

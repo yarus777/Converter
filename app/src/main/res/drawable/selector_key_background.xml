@@ -7,15 +7,15 @@
 
     <item android:state_pressed="false">
         <shape android:shape="rectangle">
-            <corners android:radius="5dp"></corners>
-            <solid android:color="@android:color/white"/>
+            <!--<corners android:radius="5dp"></corners>-->
+            <solid android:color="@color/whiteColor"/>
         </shape>
     </item>
 
     <item android:state_pressed="true">
         <shape android:shape="rectangle">
-            <corners android:radius="5dp"></corners>
-            <solid android:color="@color/colorPrimary"/>
+            <!--<corners android:radius="5dp"></corners>-->
+            <solid android:color="@color/arrow_color"/>
         </shape>
     </item>
 </selector>
