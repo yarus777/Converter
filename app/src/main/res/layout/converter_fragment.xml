@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/whiteColor">
 
 
     <android.support.v7.widget.RecyclerView
@@ -13,7 +14,9 @@
         android:layout_above="@+id/view_keyboard"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
-        android:layout_marginRight="@dimen/activity_horizontal_margin">
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp">
     </android.support.v7.widget.RecyclerView>
 
     <com.unit.converter.views.MyKeyboardView
@@ -33,3 +36,4 @@
         android:paddingTop="1dp" />
 
 </RelativeLayout>
+
