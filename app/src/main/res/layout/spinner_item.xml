@@ -9,4 +9,5 @@
     android:ellipsize="marquee"
     android:textAlignment="center"
     android:textColor="@color/colorAccent"
-    android:textStyle="bold"/>
+    android:textStyle="bold"
+    android:padding="8dp"/>
