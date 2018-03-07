@@ -36,6 +36,7 @@
                 android:textSize="16dp" />
 
             <LinearLayout
+                android:id="@+id/line"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:layout_alignParentBottom="true"

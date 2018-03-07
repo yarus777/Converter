@@ -45,6 +45,12 @@ public class ConversionsSubCategoriesRecyclerViewAdapter extends RecyclerView.Ad
                 mListener.onConversionClick(mConversionCategoryList.get(position));
             }
         });
+        if (position == mConversionCategoryList.size() - 1) {
+            holder.mLine.setVisibility(View.GONE);
+        }
+        else {
+            holder.mLine.setVisibility(View.VISIBLE);
+        }
         /*holder.mSubCategoryCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -62,6 +68,7 @@ public class ConversionsSubCategoriesRecyclerViewAdapter extends RecyclerView.Ad
 
         TextView mSubCategoryName;
         ImageView mSubCategoryImage;
+        LinearLayout mLine;
         //CardView mSubCategoryCard;
 
         public ConversionSubCategoryItem(View itemView) {
@@ -69,6 +76,7 @@ public class ConversionsSubCategoriesRecyclerViewAdapter extends RecyclerView.Ad
             itemView.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
             mSubCategoryName = itemView.findViewById(R.id.subcategory_name);
             mSubCategoryImage = itemView.findViewById(R.id.subcategory_image);
+            mLine = itemView.findViewById(R.id.line);
             //mSubCategoryCard = itemView.findViewById(R.id.subcategory_card);
         }
     }
