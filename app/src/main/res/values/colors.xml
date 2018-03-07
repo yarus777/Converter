@@ -7,7 +7,7 @@
     <color name="blackColor">#000</color>
     <color name="icons_color">#303030</color>
     <color name="arrow_color">#D2D2D2</color>
-    <color name="subcategory_text_color">#616161</color>
     <color name="edit_line_color">#E4E4E4</color>
     <color name="subcategory_color">#FAFAFA</color>
+    <color name="settings_subtext">#8D9AA7</color>
 </resources>

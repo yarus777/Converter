@@ -1,41 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/favorite_card"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@color/whiteColor">
+
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    app:cardBackgroundColor="@android:color/white"
-    app:cardCornerRadius="6dp"
-    app:cardElevation="3dp"
-    app:cardUseCompatPadding="true">
+    android:orientation="horizontal"
+    android:padding="10dp">
 
-    <RelativeLayout
+    <ImageView
+        android:id="@+id/favorite_image"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_mechanics"
+        android:tint="@color/colorAccent"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/favorite_name"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_vertical"
+        android:text="Mechanics"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16dp"/>
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@color/arrow_color"
+    android:orientation="vertical">
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/animation_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/subcategory_recycler_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="@dimen/activity_horizontal_margin">
+        android:layout_height="match_parent" />
+</LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center_vertical">
 
-            <ImageView
-                android:id="@+id/favorite_image"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/ic_area" />
-
-            <TextView
-                android:id="@+id/favorite_name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:gravity="center"
-                android:text="Mechanics"
-                android:textStyle="bold" />
-
-        </LinearLayout>
-
-    </RelativeLayout>
-</android.support.v7.widget.CardView>
+</LinearLayout>

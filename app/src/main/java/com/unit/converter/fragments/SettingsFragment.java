@@ -1,7 +1,6 @@
 package com.unit.converter.fragments;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -57,12 +56,12 @@ public class SettingsFragment extends BaseFragment implements IConstants {
         adapter = new ArrayAdapter<>(mMainActivity, R.layout.spinner_item, mMainActivity.getResources().getStringArray(R.array.group_separators));
         mGroupSeparatorSpinner.setAdapter(adapter);
         spinnerPosition = adapter.getPosition(mPrefs.getGroupSeparator());
-        Log.d("MYTAG", "Separator GROUP" + mPrefs.getGroupSeparator());
+        //Log.d("MYTAG", "Separator GROUP" + mPrefs.getGroupSeparator());
         mGroupSeparatorSpinner.setSelection(spinnerPosition);
         adapter = new ArrayAdapter<>(mMainActivity, R.layout.spinner_item, mMainActivity.getResources().getStringArray(R.array.decimal_separators));
         mDecimalSeparatorSpinner.setAdapter(adapter);
         spinnerPosition = adapter.getPosition(mPrefs.getDecimalSeparator());
-        Log.d("MYTAG", "Separator DEC" + mPrefs.getDecimalSeparator());
+        //Log.d("MYTAG", "Separator DEC" + mPrefs.getDecimalSeparator());
         mDecimalSeparatorSpinner.setSelection(spinnerPosition);
 
         mDecimalNimbersSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {

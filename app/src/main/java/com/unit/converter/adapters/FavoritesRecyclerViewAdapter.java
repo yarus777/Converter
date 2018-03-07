@@ -1,7 +1,6 @@
 package com.unit.converter.adapters;
 
 
-import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -38,12 +37,18 @@ public class FavoritesRecyclerViewAdapter extends RecyclerView.Adapter<Favorites
 
         holder.mFavoriteName.setText(mFavoriteConversions.get(position).getConversionName());
         holder.mFavoriteImage.setImageResource(mFavoriteConversions.get(position).getConversionImage());
-        holder.mFavoriteCard.setOnClickListener(new View.OnClickListener() {
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mListener.onConversionClick(mFavoriteConversions.get(position));
+            }
+        });
+        /*holder.mFavoriteCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                mListener.onConversionClick(mFavoriteConversions.get(position));
             }
-        });
+        });*/
     }
 
     @Override
@@ -55,14 +60,14 @@ public class FavoritesRecyclerViewAdapter extends RecyclerView.Adapter<Favorites
 
         TextView mFavoriteName;
         ImageView mFavoriteImage;
-        CardView mFavoriteCard;
+        //CardView mFavoriteCard;
 
         FavoriteItem(View itemView) {
             super(itemView);
             itemView.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
             mFavoriteName = itemView.findViewById(R.id.favorite_name);
             mFavoriteImage = itemView.findViewById(R.id.favorite_image);
-            mFavoriteCard = itemView.findViewById(R.id.favorite_card);
+            //mFavoriteCard = itemView.findViewById(R.id.favorite_card);
         }
     }
 }
