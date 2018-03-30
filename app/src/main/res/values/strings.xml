@@ -304,7 +304,7 @@
 
     <!-- Acceleration -->
     <string name="standart_gravity">Standart gravity</string>
-    <string name="galileo">Galileo</string>
+    <string name="galileo">Gal</string>
     <string name="km_hs">Kilometre per hour per second</string>
     <string name="km_ms">Kilometre per minute per second</string>
     <string name="km_sqs">Kilometre per second squared</string>
@@ -601,7 +601,7 @@
     <string name="mass">Mass/Weight</string>
     <string name="power">Power</string>
     <string name="volume">Volume</string>
-    <string name="speed">Speed</string>
+    <string name="speed">Velocity</string>
     <string name="pressure">Pressure</string>
     <string name="time">Time</string>
     <string name="temperature">Temperature</string>
@@ -617,7 +617,7 @@
     <string name="illuminance">Illuminance</string>
     <string name="radiation">Radiation</string>
     <string name="magnetic_flux">Magnetic flux</string>
-    <string name="magnetic_flux_density">Magnetic flux density</string>
+    <string name="magnetic_flux_density">Magnetic induction</string>
     <string name="magnetic_field_strength">Magnetic field strength</string>
     <string name="density">Density</string>
     <string name="dynamic_viscosity">Dynamic viscosity</string>

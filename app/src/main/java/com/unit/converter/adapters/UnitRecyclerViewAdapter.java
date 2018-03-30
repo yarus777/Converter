@@ -120,11 +120,15 @@ public class UnitRecyclerViewAdapter extends RecyclerView.Adapter<UnitRecyclerVi
             if (str.contains("-") && position == 0 && !text.equals("-")) {
                 position = 1;
             }
-            if (str.contains("-") && (text.equals("-") || (position < 2 && text.equals(symbol)))) {
+            if (/*str.contains("-") && (text.equals("-") ||*/ (position < 1 && text.equals(symbol)))/*)*/ {
 
             } else if ((str.contains(symbol) || position == 0) && text.equals(symbol)) {
 
-            } else {
+            }
+            else if (str.contains("-") && text.equals("-")) {
+                unitEdit.setText(str.substring(1));
+            }
+            else {
                 String str1 = str.substring(0, position);
                 String str2 = str.substring(position);
                 unitEdit.setText(str1 + text + str2);

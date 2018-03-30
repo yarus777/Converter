@@ -62,7 +62,7 @@
 
         <Key
             android:codes="45"
-            android:keyLabel="-" />
+            android:keyLabel="+/-" />
     </Row>
 
 </Keyboard>

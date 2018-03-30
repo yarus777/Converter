@@ -1,0 +1,638 @@
+<resources>
+
+    <!-- Заголовки фрагментов -->
+    <string name="main_fragment_title">Конвертер величин</string>
+    <string name="settings_fragment_title">Einstellungen</string>
+    <string name="favorites_fragment_title">Favoriten</string>
+    <!-- -->
+
+    <string name="ok_dialog_text">OK</string>
+    <string name="cancel_dialog_text">Annullierung</string>
+    <string name="yes_dialog_text">Ja</string>
+    <string name="create_dialog_text">Erstellen</string>
+    <string name="quit_text">Вы уверены, что хотите выйти?</string>
+
+    <string name="default_number_decimals">4</string>
+    <string name="default_group_separator">Nein</string>
+    <string name="default_decimal_separator">.</string>
+
+    <string name="prefs_title_formatting">Форматирование</string>
+    <string name="prefs_summary_number_decimals">Задайте количество десятичных знаков, отображаемых  в сконвертированном значении</string>
+    <string name="prefs_title_number_decimals">Число десятичных знаков</string>
+    <string name="prefs_summary_group_separator">Задайте разделитель групп разрядов, отображаемый в сконвертированном значении</string>
+    <string name="prefs_title_group_separator">Разделитель групп разрядов</string>
+    <string name="prefs_summary_decimal_separator">Задайте десятичный разделитель, отображаемый в сконвертированном значении</string>
+    <string name="prefs_title_decimal_separator">Десятичный разделитель</string>
+    <string name="group_separator_none">Nein</string>
+
+    <string name="txt_settings">Einstellungen</string>
+    <string name="txt_favorite">Favoriten</string>
+    <string name="toast_add_to_favorites">Zu den Favoriten hinzugefügt</string>
+    <string name="toast_delete_from_favorites">Aus den Favoriten entfernt</string>
+
+    <!-- Area -->
+    <string name="sq_kilometre">Quadratkilometer</string>
+    <string name="sq_metre">Quadratmeter</string>
+    <string name="sq_decimetre">Quadratdezimeter</string>
+    <string name="sq_centimetre">Quadratzentimeter</string>
+    <string name="sq_millimetre">Quadratmillimeter</string>
+    <string name="are">Ar</string>
+    <string name="hectare">Hektar</string>
+    <string name="decare">Dunam</string>
+    <string name="sq_mile">Quadratmeile</string>
+    <string name="sq_yard">Quadratyard</string>
+    <string name="sq_foot">Quadratfuß</string>
+    <string name="sq_inch">Quadratzoll</string>
+    <string name="rood">Rood (Viertelmorgen)</string>
+    <string name="acre">Acr</string>
+    <string name="sq_chain">Quadratkettenlänge</string>
+    <string name="sq_rod">Quadratrute</string>
+    <string name="sq_mil">Quadratmillizoll</string>
+
+    <!-- Distance -->
+    <string name="kilometre">Kilometer</string>
+    <string name="hectometre">Hektometer</string>
+    <string name="decametre">Decameter</string>
+    <string name="metre">Meter</string>
+    <string name="decimetre">Dezimeter</string>
+    <string name="centimetre">Zentimeter</string>
+    <string name="millimetre">Millimeter</string>
+    <string name="micrometre">Mikrometer</string>
+    <string name="nanometre">Nanometer</string>
+    <string name="angstrom">Ångström</string>
+    <string name="picometre">Picometer</string>
+    <string name="mile">Meile</string>
+    <string name="furlong">Furlong (Furchenlänge)</string>
+    <string name="chain">Chain (Kettenlänge)</string>
+    <string name="rod">Rute</string>
+    <string name="yard">Yard</string>
+    <string name="foot">Fuß</string>
+    <string name="link">Link</string>
+    <string name="hand">Hand (Handbreit)</string>
+    <string name="inch">Zoll</string>
+    <string name="thou">Тоу</string>
+    <string name="nautical_mile">Seemeile</string>
+    <string name="cable">Cable (Kabellänge)</string>
+    <string name="fathom">Nautischer Faden</string>
+    <string name="land_league">Land-League</string>
+    <string name="nautical_league">Nautische League</string>
+    <string name="verst">Werst</string>
+    <string name="mezhevaya_verst">Meschewaja werst</string>
+    <string name="kosaya_sazhen">Kosaja saschen</string>
+    <string name="makhovaya_sazhen">Machovaja saschen</string>
+    <string name="sazhen">Saschen</string>
+    <string name="arshin">Arschin</string>
+    <string name="span">Spanne</string>
+    <string name="vershok">Werschok</string>
+    <string name="line_len">Linie</string>
+    <string name="dot">Punkt</string>
+
+
+    <!-- Mass/Weight -->
+    <string name="tonne">Tonne</string>
+    <string name="centner">Centner</string>
+    <string name="kilogram">Kilogramm</string>
+    <string name="gram">Gram</string>
+    <string name="milligram">Milligramm</string>
+    <string name="microgram">Mikrogramm</string>
+    <string name="nanogram">Nanogramm</string>
+    <string name="long_ton">Tonne (Lang)</string>
+    <string name="short_ton">Tonne (Kurz)</string>
+    <string name="hundredweigth">Der lange Zentner</string>
+    <string name="cental">Ein kurzer Centner</string>
+    <string name="quarter">Viertel von einem Centner</string>
+    <string name="stone">Stein</string>
+    <string name="pound">Pfund</string>
+    <string name="pound_troy">Pfund (Troy)</string>
+    <string name="ounce">Unze</string>
+    <string name="ounce_troy">Unze (Troy)</string>
+    <string name="dram">Drachme</string>
+    <string name="dram_troy">Drachme (Troy)</string>
+    <string name="pennyweight">Pfenniggewicht</string>
+    <string name="carat">Karat (Troy)</string>
+    <string name="carat_metric">Karat (metrisch)</string>
+    <string name="grain">Gran</string>
+    <string name="pood">Pud</string>
+
+
+    <!-- Power -->
+    <string name="megawatt">Megawatt</string>
+    <string name="kilowatt">Kilowatt</string>
+    <string name="watt">Watt</string>
+    <string name="megacalorie_s">Megakalorie pro Sekunde</string>
+    <string name="kilocalorie_s">Kilokalorie pro Sekunde</string>
+    <string name="calorie_s">Kalorien pro Sekunde</string>
+    <string name="megacalorie_h">Megakalorie pro Stunde</string>
+    <string name="kilocalorie_h">Kilokalorien pro Stunde</string>
+    <string name="calorie_h">Kalorien pro Stunde</string>
+    <string name="bhp">Pferdestärken (kessel)</string>
+    <string name="ehp">Pferdestärken (elektrisch)</string>
+    <string name="hp">Pferdestärken (metrisch)</string>
+    <string name="hp_uk">Pferdestärken (mechanisch)</string>
+    <string name="joule_s">Joule pro Sekunde</string>
+    <string name="erg_s">Erg pro Sekunde</string>
+    <string name="btu_s">Britische thermische Einheit pro Sekunde</string>
+    <string name="btu_m">Britische thermische Einheit pro Minute</string>
+    <string name="btu_h">Britische thermische Einheit pro Stunde</string>
+
+    <!-- Volume -->
+
+    <string name="hectolitre">Heckoliter</string>
+    <string name="decalitre">Dekaliter</string>
+    <string name="litre">Liter</string>
+    <string name="millilitre">Milliliter</string>
+    <string name="barrel">Barrel (USA)</string>
+    <string name="barrel_uk">Barrel (Großbritannien)</string>
+    <string name="oil_barrel">Barrel (Öl)</string>
+    <string name="bushel">Bushel</string>
+    <string name="gallon">Flüssige Gallone (USA)</string>
+    <string name="gallon_dry">Trocken Gallone (USA)</string>
+    <string name="gallon_uk">Gallone (Großbritannien)</string>
+    <string name="quart">Flüssige Quart (USA)</string>
+    <string name="quart_dry">Trocken Quart(USA)</string>
+    <string name="quart_uk">Quart (Großbritannien)</string>
+    <string name="pint">Pinte (USA)</string>
+    <string name="pint_uk">Pinte (Großbritannien)</string>
+    <string name="cup">Tasse</string>
+    <string name="gill">Gill</string>
+    <string name="fluid_ounce">Flüssigunze (USA)</string>
+    <string name="fluid_ounce_uk">Flüssigunze (Großbritannien)</string>
+    <string name="teaspoon">Teelöffel (metrisch)</string>
+    <string name="teaspoon_us">Teelöffel (USA)</string>
+    <string name="teaspoon_uk">Teelöffel (Großbritannien)</string>
+    <string name="tablespoon">Esslöffel (metrisch)</string>
+    <string name="tablespoon_us">Esslöffel (USA)</string>
+    <string name="tablespoon_uk">Esslöffel(Großbritannien)</string>
+    <string name="dessertspoon_us">Dessertlöffel (USA)</string>
+    <string name="dessertspoon_uk">Dessertlöffel (Großbritannien)</string>
+    <string name="fluid_dram">Flüssige Drachme</string>
+    <string name="fluid_scruple">Flüssiges Scruple</string>
+    <string name="min">Minim</string>
+    <string name="drop">Tropfen</string>
+    <string name="drop_imperial">Tropfen (metrisch)</string>
+    <string name="cubic_km">Kubikkilometer</string>
+    <string name="cubic_m">Kubikmeter</string>
+    <string name="cubic_dm">Kubikdezimeter</string>
+    <string name="cubic_cm">Kubikzentimeter</string>
+    <string name="cubic_mm">Kubikmillimeter</string>
+    <string name="cubic_mile">Kubikmeile</string>
+    <string name="cubic_yard">Kubikyard</string>
+    <string name="cubic_foot">Kubikfuß</string>
+    <string name="cubic_inch">Kubikzoll</string>
+
+    <!-- Speed -->
+    <string name="km_h">Kilometer pro Stunde</string>
+    <string name="km_m">Kilometer pro Minute</string>
+    <string name="km_s">Kilometer pro Sekunde</string>
+    <string name="m_h">Meter pro Stunde</string>
+    <string name="m_m">Meter pro Minute</string>
+    <string name="m_s">Meter pro Sekunde</string>
+    <string name="cm_h">Zentimeter pro Stunde</string>
+    <string name="cm_m">Zentimeter pro Minute</string>
+    <string name="cm_s">Zentimeter pro Sekunde</string>
+    <string name="mm_h">Millimeter pro Stunde</string>
+    <string name="mm_m">Millimeter pro Minute</string>
+    <string name="mm_s">Millimeter pro Sekunde</string>
+    <string name="mph">Meile pro Stunde</string>
+    <string name="mpm">Meile pro Minute</string>
+    <string name="mps">Meile pro Sekunde</string>
+    <string name="fph">Fuß pro Stunde</string>
+    <string name="fpm">Fuß pro Minute</string>
+    <string name="fps">Fuß pro Sekunde</string>
+    <string name="iph">Zoll pro Stunde</string>
+    <string name="ipm">Zoll pro Minute</string>
+    <string name="ips">Zoll pro Sekunde</string>
+    <string name="knot">Knoten</string>
+
+    <!-- Pressure -->
+    <string name="hectopascal">Hectopascal</string>
+    <string name="megapascal">Megapascal</string>
+    <string name="kilopascal">Kilopascal</string>
+    <string name="pascal">Pascal</string>
+    <string name="bar">Bar</string>
+    <string name="mmbar">Millibar</string>
+    <string name="mcbar">Barye</string>
+    <string name="psi">Pfund pro Quadratzoll</string>
+    <string name="psf">Pfund pro Quadratfuß</string>
+    <string name="atmosphere">Atmosphäre</string>
+    <string name="technical_atmosphere">Technische Atmosphäre</string>
+    <string name="cmhg">Zentimeter Quecksilbersäule</string>
+    <string name="mmhg">Millimeter Quecksilbersäule</string>
+    <string name="mchg">Mikrometer Quecksilbersäule</string>
+    <string name="fhg">Fuß Quecksilbersäule</string>
+    <string name="ihg">Zoll Quecksilbersäule</string>
+    <string name="cmwc">Zentimeter Wassersäule</string>
+    <string name="mmwc">Millimeter Wassersäule</string>
+    <string name="mwc">Meter Wassersäule</string>
+    <string name="fwc">Fuß Wassersäule</string>
+    <string name="iwc">Zoll Wassersäule</string>
+    <string name="torr">Torr</string>
+
+    <!-- Force -->
+    <string name="meganewton">Meganewton</string>
+    <string name="kilonewton">Kilonewton</string>
+    <string name="newton_force">Newton</string>
+    <string name="millinewton">Millinewton</string>
+    <string name="micronewton">Micronewton</string>
+    <string name="ton_force">Kurze Ton-Kraft</string>
+    <string name="kip_force">Kip-Kraft</string>
+    <string name="pound_force">Pfund-Kraft</string>
+    <string name="ounce_force">Unzen-Kraft</string>
+    <string name="tonne_force">Ton-Kraft</string>
+    <string name="kilopond">Kilopond</string>
+    <string name="kilogram_force">Kilogramm-Kraft</string>
+    <string name="grave_force">Grave-Kraft</string>
+    <string name="gram_force">Gram-Kraft</string>
+    <string name="milligrave_force">Milligrave-Kraft</string>
+    <string name="gravet_force">Gravet-Kraft</string>
+    <string name="milligram_force">Milligramm-Kraft</string>
+    <string name="sthene">Sthen</string>
+    <string name="poundal">Poundal</string>
+    <string name="dyne">Dyn</string>
+
+    <!-- Time -->
+    <string name="year">Jahr</string>
+    <string name="month">Monat</string>
+    <string name="week">Woche</string>
+    <string name="day">Tag</string>
+    <string name="hour">Stunde</string>
+    <string name="minute">Minute</string>
+    <string name="second">Sekunden</string>
+    <string name="millisecond">Millisekunde</string>
+    <string name="nanosecond">Nanosekunde</string>
+
+    <!-- Temperature -->
+    <string name="celsius">Celsius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="kelvin">Kelvin</string>
+    <string name="rankine">Rankine</string>
+    <string name="delisle">Delisle</string>
+    <string name="newton">Newton</string>
+    <string name="reaumur">Réaumur</string>
+    <string name="romer">Rømer</string>
+
+    <!-- Energy -->
+    <string name="joule">Joule</string>
+    <string name="kilojoule">Kilojoule</string>
+    <string name="megajoule">Megajoule</string>
+    <string name="gigajoule">Gigajoule</string>
+    <string name="calorie">Kalorie</string>
+    <string name="kilocalorie">Kilokalorie</string>
+    <string name="megacalorie">Megakalorie</string>
+    <string name="gigacalorie">Gigakalorie</string>
+    <string name="watt_h">Wattstunde</string>
+    <string name="kilowatt_h">Kilowattstunde</string>
+    <string name="megawatt_h">Megawattstunden</string>
+    <string name="watt_s">Wattsekunde</string>
+    <string name="erg">Erg</string>
+    <string name="quad">Quad</string>
+    <string name="therm">Therm</string>
+    <string name="thermie">Einheit der thermischen Energie</string>
+    <string name="btu_iso">Britische thermische Einheit, ISO</string>
+    <string name="btu_it">Britische thermische Einheit, IT</string>
+    <string name="ft_lbf">Fuß-Pfund</string>
+    <string name="boe">Öläquivalent Barrel</string>
+    <string name="t_tnt">Tonne (metrisch) TNT</string>
+    <string name="k_tnt">Kilogramm TNT</string>
+    <string name="ton_tnt">Tonne(USA) TNT</string>
+    <string name="electronvolt">Elektronvolt</string>
+
+    <!-- Acceleration -->
+    <string name="standart_gravity">Erdbeschleunigung</string>
+    <string name="galileo">Gal</string>
+    <string name="km_hs">Kilometer pro Stunde pro Sekunde</string>
+    <string name="km_ms">Kilometer pro Minute pro Sekunde</string>
+    <string name="km_sqs">Kilometer pro Sekunde im Quadrat</string>
+    <string name="m_hs">Meter pro Stunde pro Sekunde</string>
+    <string name="m_ms">Meter pro Minute pro Sekunde</string>
+    <string name="m_sqs">Meter pro Sekunde im Quadrat</string>
+    <string name="mph_s">Meilen pro Stunde pro Sekunde</string>
+    <string name="mpm_s">Meilen pro Minute pro Sekunde</string>
+    <string name="mp_sqs">Meilen pro Sekunde im Quadrat</string>
+    <string name="fph_s">Fuß pro Stunde pro Sekunde</string>
+    <string name="fpm_s">Fuß  pro Minute pro Sekunde</string>
+    <string name="fp_sqs">Fuß pro Sekunde im Quadrat</string>
+    <string name="iph_s">Zoll pro Stunde pro Sekunde</string>
+    <string name="ipm_s">Zoll pro Minute pro Sekunde</string>
+    <string name="ip_sqs">Zoll pro Sekunde im Quadrat</string>
+    <string name="kn_s">Knoten pro Sekunde</string>
+
+    <!-- Electric charge -->
+    <string name="coulomb">Coulomb</string>
+    <string name="millicoulomb">Millicoulomb</string>
+    <string name="microcoulomb">Mikrocoulomb</string>
+    <string name="nanocoulomb">Наноcoulomb</string>
+    <string name="kilocoulomb">Kilocoulomb</string>
+    <string name="megacoulomb">Megacoulomb</string>
+    <string name="abcoulomb">Abcoulomb</string>
+    <string name="milliampere_h">Milliamperestunde</string>
+    <string name="milliampere_m">Milliamperminute</string>
+    <string name="milliampere_s">Milliamperesekunde</string>
+    <string name="ampere_h">Amperestunde</string>
+    <string name="ampere_m">Ampereminute</string>
+    <string name="ampere_s">Amperesekunde</string>
+    <string name="faraday">Faraday</string>
+
+    <!-- Electric current -->
+    <string name="ampere">Ampere</string>
+    <string name="milliampere">Milliampere</string>
+    <string name="microampere">Mikroampere</string>
+    <string name="nanoampere">Nanoampere</string>
+    <string name="kiloampere">Kiloampere</string>
+    <string name="megaampere">Megaampere</string>
+    <string name="gigaampere">Gigaampere</string>
+    <string name="abampere">Abampere</string>
+    <string name="coulomb_s">Coulomb pro Sekunde</string>
+
+    <!-- Electric resistance -->
+    <string name="ohm">Ohm</string>
+    <string name="milliohm">Milliohm</string>
+    <string name="microohm">Mikroohm</string>
+    <string name="nanoohm">Nanoohm</string>
+    <string name="kiloohm">Kiloohm</string>
+    <string name="megaohm">Megaohm</string>
+    <string name="gigaohm">Gigaohm</string>
+    <string name="abohm">Abohm</string>
+    <string name="volt_ampere">Volt pro Ampere</string>
+
+    <!-- Electric capacitance-->
+    <string name="farad">Farad</string>
+    <string name="millifarad">Millifarad</string>
+    <string name="microfarad">Mikrofarad</string>
+    <string name="nanofarad">Nanofarad</string>
+    <string name="picofarad">Picofarad</string>
+    <string name="decafarad">Dekafarad</string>
+    <string name="hectofarad">Hektofarad</string>
+    <string name="kilofarad">Kilofarad</string>
+    <string name="megafarad">Megafarad</string>
+    <string name="gigafarad">Gigafarad</string>
+    <string name="abfarad">Abfarad</string>
+    <string name="statfarad">Statfarad</string>
+    <string name="coulomb_volt">Coulomb pro Volt</string>
+
+
+    <!-- Electric potential -->
+    <string name="volt">Volt</string>
+    <string name="millivolt">Millivolt</string>
+    <string name="microvolt">Mikrovolt</string>
+    <string name="nanovolt">Nanovolt</string>
+    <string name="kilovolt">Kilovolt</string>
+    <string name="megavolt">Megavolt</string>
+    <string name="gigavolt">Gigavolt</string>
+    <string name="abvolt">Abvolt</string>
+    <string name="statvolt">Statvolt</string>
+    <string name="watt_ampere">Watt pro Ampere</string>
+
+    <!-- Luminance -->
+    <string name="candela_sqm">Candela pro Quadratmeter</string>
+    <string name="candela_sqcm">Candela pro Quadratzentimeter</string>
+    <string name="candela_sqf">Candela pro Quadratfuß</string>
+    <string name="candela_sqi">Candela pro Quadratzoll</string>
+    <string name="kilocandela_sqm">Kilocandela pro Quadratmeter</string>
+    <string name="lumen_sqm_ster">Lumen pro Quadratmeter pro Steradiant</string>
+    <string name="lumen_sqcm_ster">Lumen pro Quadratzentimeter pro Steradiant</string>
+    <string name="lumen_sqft_ster">Lumen pro Quadratfuß pro Steradiant</string>
+    <string name="nit">Nit</string>
+    <string name="millinit">Millinit</string>
+    <string name="lambert">Lambert</string>
+    <string name="millilambert">Millillambert</string>
+    <string name="foot_lambert">Fuß-Lambert</string>
+    <string name="stilb">Stilb</string>
+    <string name="apostilb">Apostilb</string>
+    <string name="blondel">Blondel</string>
+    <string name="bril">Bril</string>
+    <string name="skot">Skot</string>
+
+    <!-- Illuminance -->
+    <string name="lumen_sqm">Lumen pro Quadratmeter</string>
+    <string name="lumen_sqcm">Lumen pro Quadratzentimeter</string>
+    <string name="lumen_sqf">Lumen pro Quadratfuß</string>
+    <string name="lumen_sqi">Lumen pro Quadratzoll</string>
+    <string name="lux">Lux</string>
+    <string name="phot">Phot</string>
+    <string name="nox">Nox</string>
+    <string name="m_candel">Meter-Candela</string>
+    <string name="cm_candel">Zentimeter-Candela</string>
+    <string name="ft_candel">Fuß-Candela</string>
+    <string name="candela_ster_sqm">Candela-Steradian pro Quadratmeter</string>
+
+    <!-- Radiation -->
+    <string name="gray">Gray</string>
+    <string name="megagray">Megagray</string>
+    <string name="kilogray">Kilogray</string>
+    <string name="hectogray">Hektogray</string>
+    <string name="decagray">Dekagray</string>
+    <string name="decigray">Dezigray</string>
+    <string name="centigray">Zentigray</string>
+    <string name="milligray">Milligray</string>
+    <string name="microgray">Mikrogray</string>
+    <string name="rad">Rad</string>
+    <string name="millirad">Millirad</string>
+    <string name="sievert">Sievert</string>
+    <string name="millisievert">Millisievert</string>
+    <string name="microsievert">Mikrosievert</string>
+    <string name="nanosievert">Nanosievert</string>
+    <string name="röntgen_equivalent_man">Biologisches Äquivalent von Röntgenstrahlen</string>
+    <string name="roentgen">Röntgen</string>
+    <string name="milliroentgen">Milliröntgen</string>
+    <string name="microroentgen">Mikroröntgen</string>
+
+    <!-- Radioactivity -->
+    <string name="becquerel">Becquerel</string>
+    <string name="gigabecquerel">Gigabecquerel</string>
+    <string name="megabecquerel">Megabecquerel</string>
+    <string name="kilobecquerel">Kilobecquerel</string>
+    <string name="curie">Curie</string>
+    <string name="millicurie">Millicurie</string>
+    <string name="microcurie">Mikrocurie</string>
+    <string name="rutherford">Rutherford</string>
+    <string name="dps">Zerfälle pro Sekunde</string>
+    <string name="dpm">Zerfälle pro Minute</string>
+
+    <!-- Dynamic viscosity -->
+    <string name="pascal_s">Pascalsekunde</string>
+    <string name="poise">Poise</string>
+    <string name="lb_fth">Pfund pro Fuß pro Stunde</string>
+    <string name="lb_fts">Pfund pro Fuß pro Sekunde</string>
+    <string name="lbfs_sqft">Pfund-Kraft-Sekunde pro Quadratfuß</string>
+    <string name="lbfs_sqin">Pfund-Kraft-Sekunde pro Quadratzoll</string>
+    <string name="pds_sqft">Poundal-Sekunde pro Quadratmeter</string>
+    <string name="slug_ft_s">Slug pro Fuß pro Sekunde</string>
+    <string name="g_cm_s">Gramm pro Zentimeter pro Sekunde</string>
+    <string name="kgfs_sqm">Kilogramm-Kraft-Sekunde pro Quadratmeter</string>
+    <string name="ns_sqm">Newton-Sekunde pro Quadratmeter</string>
+    <string name="millins_sqm">Millinewton-Sekunde pro Quadratmeter</string>
+    <string name="dynes_sqcm">Dyn-Sekunde pro Quadratzentimeter</string>
+
+    <!-- Kinematic viscosity -->
+    <string name="sqm_s">Quadratmeter pro Sekunde</string>
+    <string name="sqm_h">Quadratmeter pro Stunde</string>
+    <string name="sqcm_s">Quadratzentimeter pro Sekunde</string>
+    <string name="sqmm_s">Quadratmillimeter pro Sekunde</string>
+    <string name="sqft_s">Quadratfuß pro Sekunde</string>
+    <string name="sqft_h">Quadratfuß pro Stunde</string>
+    <string name="sqin_s">Quadratizoll pro Sekunde</string>
+    <string name="stokes">Stokes</string>
+
+    <!-- Density -->
+    <string name="t_cubm">Tonne pro Kubikmeter</string>
+    <string name="kg_cubm">Kilogramm pro Kubikmeter</string>
+    <string name="kg_cubdm">Kilogramm pro Kubikdezimeter</string>
+    <string name="kg_l">Kilogramm pro Liter</string>
+    <string name="g_cubm">Gramm pro Kubikmeter</string>
+    <string name="g_cubcm">Gramm pro Kubikzentimeter</string>
+    <string name="g_l">Gramm pro Liter</string>
+    <string name="g_ml">Gramm pro Milliliter</string>
+    <string name="lb_cubft">Pfund pro Kubikfuß</string>
+    <string name="lb_cubin">Pfund pro Kubikzoll</string>
+    <string name="lb_gal">Pfund pro Gallone USA</string>
+    <string name="oz_cubft">Unze pro Kubikfuß</string>
+    <string name="oz_cubin">Unze pro Kubikzoll</string>
+    <string name="oz_gal">Unze pro Gallone USA</string>
+
+    <!-- Magnetic flux density -->
+    <string name="megatesla">Megatesla</string>
+    <string name="kilotesla">Kilotesla</string>
+    <string name="tesla">Tesla</string>
+    <string name="millitesla">Millitesla</string>
+    <string name="microtesla">Mikrotesla</string>
+    <string name="nanotesla">Nanotesla</string>
+    <string name="picotesla">Picotesla</string>
+    <string name="gauss">Gauß</string>
+    <string name="gamma">Gamma</string>
+    <string name="weber_sqm">Weber pro Quadratmeter</string>
+    <string name="weber_sqcm">Weber pro Quadratzentimeter</string>
+    <string name="weber_sqin">Weber pro Quadratzoll</string>
+    <string name="maxwell_sqm">Maxwell pro Quadratmeter</string>
+    <string name="maxwell_sqcm">Maxwell pro Quadratzentimeter</string>
+    <string name="maxwell_sqin">Maxwell pro Quadratzoll</string>
+    <string name="line_sqcm">Linien pro Quadratzentimeter</string>
+    <string name="line_sqin">Linien pro Quadratzoll</string>
+
+    <!-- Magnetic flux -->
+    <string name="weber">Weber</string>
+    <string name="milliweber">Milliweber</string>
+    <string name="microweber">Mikroweber</string>
+    <string name="volt_s">Volt-Sekunde</string>
+    <string name="unit_pole">Einzelner magnetischer Fluss</string>
+    <string name="megaline">Megalinie</string>
+    <string name="kiloline">Kilolinie</string>
+    <string name="line">Linie</string>
+    <string name="maxwell">Maxwell</string>
+    <string name="tesla_sqm">Tesla-Quadratmeter</string>
+    <string name="tesla_sqcm">Tesla-Quadratzentimeter</string>
+    <string name="gauss_sqcm">Gauß-Quadratzentimeter</string>
+    <string name="magnetic_flux_quantum">Quantum des magnetischen Flusses</string>
+
+    <!-- Magnetic field strength -->
+    <string name="ampere_metre">Ampere pro Meter</string>
+    <string name="kiloampere_m">Kiloamper pro Meter</string>
+    <string name="ampere_turn_m">Amperewindung pro Meter</string>
+    <string name="oersted">Oersted</string>
+
+    <!-- Torque -->
+    <string name="newton_metre">Newtonmeter</string>
+    <string name="decanewton_metre">Dekanewtonmeter</string>
+    <string name="kilonewton_metre">Kilonewtonmeter</string>
+    <string name="newton_centimetre">Newtonzentimeter</string>
+    <string name="m_kgf">Meter-Kilogramm-Kraft</string>
+    <string name="m_gf">Meter-Gramm-Kraft</string>
+    <string name="cm_kgf">Zentimeter-Kilogramm-Kraft</string>
+    <string name="cm_gf">Zentimeter-Gramm-Kraft</string>
+    <string name="ft_lb_f">Fuß-Pfund-Kraft</string>
+    <string name="ft_pdl">Fuß-Poundal</string>
+    <string name="in_lb_f">Zoll-Pfund-Kraft</string>
+
+    <!-- Angular velocity -->
+    <string name="rev_week">Umdrehungen pro Woche</string>
+    <string name="rev_day">Umdrehungen pro Tag</string>
+    <string name="rev_h">Umdrehungen pro Stunde</string>
+    <string name="rev_min">Umdrehungen pro Minute</string>
+    <string name="rev_sec">Umdrehungen pro секунду</string>
+    <string name="rad_week">Radiant pro Woche</string>
+    <string name="rad_day">Radiant pro Tag</string>
+    <string name="rad_h">Radiant pro Stunde</string>
+    <string name="rad_min">Radiant pro Minute</string>
+    <string name="rad_sec">Radiant pro Sekunde</string>
+    <string name="deg_week">Grad pro Woche</string>
+    <string name="deg_day">Grad pro Tag</string>
+    <string name="deg_h">Grad pro Stunde</string>
+    <string name="deg_min">Grad pro Minute</string>
+    <string name="deg_sec">Grad pro Sekunde</string>
+
+    <!-- Angular acceleration -->
+    <string name="rad_sqh">Radiant pro Sekunde pro Stunde</string>
+    <string name="rad_sqmin">Radiant pro Sekunde pro Minute</string>
+    <string name="rad_sqsec">Radiant pro Sekunde pro Sekunde</string>
+    <string name="rev_sqh">Umdrehungen pro Sekunde pro Stunde</string>
+    <string name="rev_sqmin">Umdrehungen pro Sekunde pro Minute</string>
+    <string name="rev_sqsec">Umdrehungen pro Sekunde pro Sekunde</string>
+    <string name="rev_minsec">Umdrehungen pro Minute pro Sekunde</string>
+    <string name="rev_hmin">Umdrehungen pro Stunde pro Minute</string>
+
+    <!-- Luminous intensity -->
+    <string name="candela">Candela</string>
+    <string name="candle_ger">Kerze</string>
+    <string name="candle_uk">Kerze (Großbritannien)</string>
+    <string name="dec_candle">Dezimale kerze</string>
+    <string name="candle_pen">Penta Kerze</string>
+    <string name="pen_candle">Penta Kerze (mit einer Kapazität von 10 Candela)</string>
+    <string name="hefner_candle">Hefnerkerze</string>
+    <string name="bougie_dec">Bougie dezimale</string>
+    <string name="lumen_ster">Lumen pro Steradiant</string>
+    <string name="inter_candle">Kerze (internationale)</string>
+    <string name="carcel_unit">Carsel Einheit</string>
+
+    <!-- Fuel consumption -->
+    <string name="mpg_us">Meilen pro Gallone (USA)</string>
+    <string name="mpg_uk">Meilen pro Gallone (Großbritannien)</string>
+    <string name="l_100k">Liter pro 100 Kilometer</string>
+    <string name="km_l">Kilometer pro Liter</string>
+    <string name="miles_l">Meilen pro Liter</string>
+
+    <!-- Conversion Subcategories -->
+    <string name="area">Fläche</string>
+    <string name="length">Länge</string>
+    <string name="mass">Gewicht</string>
+    <string name="power">Leistung</string>
+    <string name="volume">Volumen</string>
+    <string name="speed">Geschwindigkeit</string>
+    <string name="pressure">Druck</string>
+    <string name="time">Zeit</string>
+    <string name="temperature">Temperatur</string>
+    <string name="cooking">Kochen</string>
+    <string name="acceleration">Beschleunigung</string>
+    <string name="force">Kraft</string>
+    <string name="el_charge">Elektrische Ladung</string>
+    <string name="el_current">Elektrischer Strom</string>
+    <string name="el_resistance">Elektrischer Widerstand</string>
+    <string name="el_potential">Elektrisches Potential</string>
+    <string name="el_capacitance">Elektrische Kapazität</string>
+    <string name="luminance">Leuchtdichte</string>
+    <string name="illuminance">Beleuchtungsstärke</string>
+    <string name="radiation">Strahlung</string>
+    <string name="magnetic_flux">Magnetischer Fluss</string>
+    <string name="magnetic_flux_density">Magnetische Flussdichte</string>
+    <string name="magnetic_field_strength">Magnetische Feldstärke</string>
+    <string name="density">Dichte</string>
+    <string name="dynamic_viscosity">Dynamische Viskosität</string>
+    <string name="kinematic_viscosity">Kinematische Viskosität</string>
+    <string name="torque">Drehmoment</string>
+    <string name="angular_velocity">Winkelgeschwindigkeit</string>
+    <string name="angular_acceleration">Winkelbeschleunigung</string>
+    <string name="luminous_intensity">Lichtstärke</string>
+    <string name="fuel_consumption">Kraftstoffverbrauch</string>
+
+    <!-- Conversion Categories -->
+    <string name="dimension">Dimension</string>
+    <string name="mechanics">Mechanik</string>
+    <string name="energy">Energie</string>
+    <string name="motion">Bewegung</string>
+    <string name="useful">Nützlich</string>
+    <string name="electricity">Elektrizität</string>
+    <string name="photometry">Photometrie</string>
+    <string name="radioactivity">Radioaktivität</string>
+    <string name="magnetism">Magnetismus</string>
+    <string name="chemistry">Chemie</string>
+    <string name="acoustics">Akustik</string>
+</resources>

@@ -2,18 +2,18 @@
 
     <!-- Заголовки фрагментов -->
     <string name="main_fragment_title">Конвертер величин</string>
-    <string name="settings_fragment_title">Настройки</string>
-    <string name="favorites_fragment_title">Избранное</string>
+    <string name="settings_fragment_title">Impostazioni</string>
+    <string name="favorites_fragment_title">Preferiti</string>
     <!-- -->
 
     <string name="ok_dialog_text">OK</string>
-    <string name="cancel_dialog_text">Отмена</string>
-    <string name="yes_dialog_text">Да</string>
-    <string name="create_dialog_text">Создать</string>
+    <string name="cancel_dialog_text">Annulla</string>
+    <string name="yes_dialog_text">Sì</string>
+    <string name="create_dialog_text">Creare</string>
     <string name="quit_text">Вы уверены, что хотите выйти?</string>
 
     <string name="default_number_decimals">4</string>
-    <string name="default_group_separator">Нет</string>
+    <string name="default_group_separator">No</string>
     <string name="default_decimal_separator">.</string>
 
     <string name="prefs_title_formatting">Форматирование</string>
@@ -23,10 +23,10 @@
     <string name="prefs_title_group_separator">Разделитель групп разрядов</string>
     <string name="prefs_summary_decimal_separator">Задайте десятичный разделитель, отображаемый в сконвертированном значении</string>
     <string name="prefs_title_decimal_separator">Десятичный разделитель</string>
-    <string name="group_separator_none">Нет</string>
+    <string name="group_separator_none">No</string>
 
-    <string name="txt_settings">Настройки</string>
-    <string name="txt_favorite">Избранное</string>
+    <string name="txt_settings">Impostazioni</string>
+    <string name="txt_favorite">Preferiti</string>
     <string name="toast_add_to_favorites">Добавлено в избранное</string>
     <string name="toast_delete_from_favorites">Удалено из избранного</string>
 
@@ -50,42 +50,42 @@
     <string name="sq_mil">Квадратный мил</string>
 
     <!-- Distance -->
-    <string name="kilometre">Километр</string>
-    <string name="hectometre">Гектометр</string>
-    <string name="decametre">Декаметр</string>
-    <string name="metre">Метр</string>
-    <string name="decimetre">Дециметр</string>
-    <string name="centimetre">Сантиметр</string>
-    <string name="millimetre">Миллиметр</string>
-    <string name="micrometre">Микрометр</string>
-    <string name="nanometre">Нанометр</string>
-    <string name="angstrom">Ангстрем</string>
-    <string name="picometre">Пикометр</string>
-    <string name="mile">Миля</string>
-    <string name="furlong">Фурлонг</string>
-    <string name="chain">Чейн</string>
-    <string name="rod">Род</string>
-    <string name="yard">Ярд</string>
-    <string name="foot">Фут</string>
-    <string name="link">Линк</string>
-    <string name="hand">Хэнд</string>
-    <string name="inch">Дюйм</string>
-    <string name="thou">Тоу</string>
-    <string name="nautical_mile">Морская миля</string>
-    <string name="cable">Кабельтов</string>
-    <string name="fathom">Фатом</string>
-    <string name="land_league">Сухопутная лига</string>
-    <string name="nautical_league">Морская лига</string>
-    <string name="verst">Верста</string>
-    <string name="mezhevaya_verst">Межевая верста</string>
-    <string name="kosaya_sazhen">Косая сажень</string>
-    <string name="makhovaya_sazhen">Маховая сажень</string>
-    <string name="sazhen">Сажень</string>
-    <string name="arshin">Аршин</string>
-    <string name="span">Пядь</string>
-    <string name="vershok">Вершок</string>
-    <string name="line_len">Линия</string>
-    <string name="dot">Точка</string>
+    <string name="kilometre">Chilometro</string>
+    <string name="hectometre">Ettometro</string>
+    <string name="decametre">Decametro</string>
+    <string name="metre">Metro</string>
+    <string name="decimetre">Decimetro</string>
+    <string name="centimetre">Centimetro</string>
+    <string name="millimetre">Millimetro</string>
+    <string name="micrometre">Micrometro</string>
+    <string name="nanometre">Nanometro</string>
+    <string name="angstrom">Ångström</string>
+    <string name="picometre">Picometro</string>
+    <string name="mile">Miglio</string>
+    <string name="furlong">Furlong</string>
+    <string name="chain">Catena</string>
+    <string name="rod">Polo</string>
+    <string name="yard">Iarda</string>
+    <string name="foot">Piede</string>
+    <string name="link">Link</string>
+    <string name="hand">Palmo</string>
+    <string name="inch">Pollice</string>
+    <string name="thou">Tou</string>
+    <string name="nautical_mile">Miglio nautico</string>
+    <string name="cable">Cavo</string>
+    <string name="fathom">Braccio</string>
+    <string name="land_league">Land Lega</string>
+    <string name="nautical_league">Sea Lega</string>
+    <string name="verst">Versta</string>
+    <string name="mezhevaya_verst">Verso margine</string>
+    <string name="kosaya_sazhen">Sazhen inclinato</string>
+    <string name="makhovaya_sazhen">Braccia centrifughi</string>
+    <string name="sazhen">Sažen\'</string>
+    <string name="arshin">Aršin</string>
+    <string name="span">Spanna</string>
+    <string name="vershok">Vershok</string>
+    <string name="line_len">Linea</string>
+    <string name="dot">Punto</string>
 
 
     <!-- Mass/Weight -->
@@ -125,7 +125,7 @@
     <string name="megacalorie_h">Мегакалория в час</string>
     <string name="kilocalorie_h">Килокалория в час</string>
     <string name="calorie_h">Калория в час</string>
-    <string name="bhp">Лошадиная сила (котловая)</string>
+    <string name="bhp">Лошадиная сила (котловая.)</string>
     <string name="ehp">Лошадиная сила (элекрич.)</string>
     <string name="hp">Лошадиная сила (метрич.)</string>
     <string name="hp_uk">Лошадиная сила (механич.)</string>
@@ -245,7 +245,7 @@
     <string name="gram_force">Грамм-сила</string>
     <string name="milligrave_force">Миллигрейв-сила</string>
     <string name="gravet_force">Гравет-сила</string>
-    <string name="milligram_force">Миллиграмм-сила</string>
+    <string name="milligram_force">Миллиграм-сила</string>
     <string name="sthene">Стен</string>
     <string name="poundal">Паундаль</string>
     <string name="dyne">Дина</string>
@@ -299,7 +299,7 @@
 
     <!-- Acceleration -->
     <string name="standart_gravity">Стандартная гравитация</string>
-    <string name="galileo">Гал</string>
+    <string name="galileo">Галелео</string>
     <string name="km_hs">Километр в час на секунду</string>
     <string name="km_ms">Километр в минуту на секунду</string>
     <string name="km_sqs">Километр на секунду в квадрате</string>
@@ -318,13 +318,13 @@
     <string name="kn_s">Узлов в секунду</string>
 
     <!-- Electric charge -->
-    <string name="coulomb">Кулон</string>
+    <string name="coulomb">Coulomb</string>
     <string name="millicoulomb">Милликулон</string>
     <string name="microcoulomb">Микрокулон</string>
     <string name="nanocoulomb">Нанокулон</string>
     <string name="kilocoulomb">Килокулон</string>
     <string name="megacoulomb">Мегакулон</string>
-    <string name="abcoulomb">Абкулон</string>
+    <string name="abcoulomb">Abcoulomb</string>
     <string name="milliampere_h">Миллиампер-час</string>
     <string name="milliampere_m">Миллиампер-минута</string>
     <string name="milliampere_s">Миллиампер-секунда</string>
@@ -334,7 +334,7 @@
     <string name="faraday">Фарадей</string>
 
     <!-- Electric current -->
-    <string name="ampere">Ампер</string>
+    <string name="ampere">Ampere</string>
     <string name="milliampere">Миллиампер</string>
     <string name="microampere">Микроампер</string>
     <string name="nanoampere">Наноампер</string>
@@ -345,7 +345,7 @@
     <string name="coulomb_s">Кулон в секунду</string>
 
     <!-- Electric resistance -->
-    <string name="ohm">Ом</string>
+    <string name="ohm">Ohm</string>
     <string name="milliohm">Миллиом</string>
     <string name="microohm">Микроом</string>
     <string name="nanoohm">Наноом</string>
@@ -356,7 +356,7 @@
     <string name="volt_ampere">Вольт на ампер</string>
 
     <!-- Electric capacitance-->
-    <string name="farad">Фарад</string>
+    <string name="farad">Farad</string>
     <string name="millifarad">Миллифарад</string>
     <string name="microfarad">Микрофарад</string>
     <string name="nanofarad">Нанофарад</string>
@@ -372,7 +372,7 @@
 
 
     <!-- Electric potential -->
-    <string name="volt">Вольт</string>
+    <string name="volt">Volt</string>
     <string name="millivolt">Милливольт</string>
     <string name="microvolt">Микровольт</string>
     <string name="nanovolt">Нановольт</string>
@@ -417,7 +417,7 @@
     <string name="candela_ster_sqm">Кандела-стерадиан на квадратный метр</string>
 
     <!-- Radiation -->
-    <string name="gray">Грей</string>
+    <string name="gray">Gray</string>
     <string name="megagray">Мегагрей</string>
     <string name="kilogray">Килогрей</string>
     <string name="hectogray">Гектогрей</string>
@@ -428,17 +428,17 @@
     <string name="microgray">Микрогрей</string>
     <string name="rad">Рад</string>
     <string name="millirad">Миллирад</string>
-    <string name="sievert">Зиверт</string>
+    <string name="sievert">Sievert</string>
     <string name="millisievert">Миллизиверт</string>
     <string name="microsievert">Микрозиверт</string>
     <string name="nanosievert">Нанозиверт</string>
     <string name="röntgen_equivalent_man">Биологический эквивалент рентгена</string>
-    <string name="roentgen">Рентген</string>
+    <string name="roentgen">Röntgen</string>
     <string name="milliroentgen">Миллирентген</string>
     <string name="microroentgen">Микрорентген</string>
 
     <!-- Radioactivity -->
-    <string name="becquerel">Беккерель</string>
+    <string name="becquerel">Becquerel</string>
     <string name="gigabecquerel">Гигабеккерель</string>
     <string name="megabecquerel">Мегабеккерель</string>
     <string name="kilobecquerel">Килобеккерель</string>
@@ -493,7 +493,7 @@
     <!-- Magnetic flux density -->
     <string name="megatesla">Мегатесла</string>
     <string name="kilotesla">Килотесла</string>
-    <string name="tesla">Тесла</string>
+    <string name="tesla">Tesla</string>
     <string name="millitesla">Миллитесла</string>
     <string name="microtesla">Микротесла</string>
     <string name="nanotesla">Нанотесла</string>
@@ -510,7 +510,7 @@
     <string name="line_sqin">Линий на квадратный дюйм</string>
 
     <!-- Magnetic flux -->
-    <string name="weber">Вебер</string>
+    <string name="weber">Weber</string>
     <string name="milliweber">Милливебер</string>
     <string name="microweber">Микровебер</string>
     <string name="volt_s">Вольт-секунда</string>
@@ -518,7 +518,7 @@
     <string name="megaline">Мегалиния</string>
     <string name="kiloline">Килолиния</string>
     <string name="line">Линия</string>
-    <string name="maxwell">Максвелл</string>
+    <string name="maxwell">Maxwell</string>
     <string name="tesla_sqm">Тесла-квадратный метр</string>
     <string name="tesla_sqcm">Тесла-квадратный сантиметр</string>
     <string name="gauss_sqcm">Гаусс-квадратный сантиметр</string>
@@ -539,7 +539,7 @@
     <string name="m_gf">Метр-грамм сила</string>
     <string name="cm_kgf">Сантиметр-килограмм сила</string>
     <string name="cm_gf">Сантиметр-грамм сила</string>
-    <string name="ft_lb_f">Фут-фунт сила</string>
+    <string name="ft_lb_f">фут-фунт сила</string>
     <string name="ft_pdl">Фут-паундаль</string>
     <string name="in_lb_f">Дюйм-фунт сила</string>
 
@@ -571,7 +571,7 @@
     <string name="rev_hmin">Оборот в час за минуту</string>
 
     <!-- Luminous intensity -->
-    <string name="candela">Кандела</string>
+    <string name="candela">Candela</string>
     <string name="candle_ger">Свеча (нем.)</string>
     <string name="candle_uk">Свеча (англ.)</string>
     <string name="dec_candle">Десятичная свеча</string>
@@ -591,48 +591,48 @@
     <string name="miles_l">Миль на литр</string>
 
     <!-- Conversion Subcategories -->
-    <string name="area">Площадь</string>
-    <string name="length">Длина</string>
-    <string name="mass">Масса/Вес</string>
-    <string name="power">Мощность</string>
-    <string name="volume">Объем</string>
-    <string name="speed">Скорость</string>
-    <string name="pressure">Давление</string>
-    <string name="time">Время</string>
-    <string name="temperature">Температура</string>
-    <string name="cooking">Кулинария</string>
-    <string name="acceleration">Ускорение</string>
-    <string name="force">Сила</string>
-    <string name="el_charge">Электрический заряд</string>
-    <string name="el_current">Электрический ток</string>
-    <string name="el_resistance">Электрическое сопротивление</string>
-    <string name="el_potential">Электрический потенциал</string>
-    <string name="el_capacitance">Электрическая емкость</string>
-    <string name="luminance">Яркость</string>
-    <string name="illuminance">Освещенность</string>
-    <string name="radiation">Радиация</string>
-    <string name="magnetic_flux">Магнитный поток</string>
-    <string name="magnetic_flux_density">Магнитная индукция</string>
-    <string name="magnetic_field_strength">Напряженность магнитного поля</string>
-    <string name="density">Плотность</string>
-    <string name="dynamic_viscosity">Динамическая вязкость</string>
-    <string name="kinematic_viscosity">Кинематическая вязкость</string>
-    <string name="torque">Момент силы</string>
-    <string name="angular_velocity">Угловая скорость</string>
-    <string name="angular_acceleration">Угловое ускорение</string>
-    <string name="luminous_intensity">Сила света</string>
-    <string name="fuel_consumption">Расход топлива</string>
+    <string name="area">Area</string>
+    <string name="length">Lunghezza</string>
+    <string name="mass">Massa</string>
+    <string name="power">Potenza</string>
+    <string name="volume">Volume</string>
+    <string name="speed">Velocità</string>
+    <string name="pressure">Pressione</string>
+    <string name="time">Tempo</string>
+    <string name="temperature">Temperatura</string>
+    <string name="cooking">Cucina</string>
+    <string name="acceleration">Accelerazione</string>
+    <string name="force">Forza</string>
+    <string name="el_charge">Carica elettrica</string>
+    <string name="el_current">Corrente elettrica</string>
+    <string name="el_resistance">Resistenza elettrica</string>
+    <string name="el_potential">Potenziale elettrico</string>
+    <string name="el_capacitance">Capacità elettrica</string>
+    <string name="luminance">Luminanza</string>
+    <string name="illuminance">Illuminamento</string>
+    <string name="radiation">Radiazione</string>
+    <string name="magnetic_flux">Flusso magnetico</string>
+    <string name="magnetic_flux_density">Induzione magnetica</string>
+    <string name="magnetic_field_strength">Forza del campo magnetico</string>
+    <string name="density">Densità</string>
+    <string name="dynamic_viscosity">Viscosità dinamica</string>
+    <string name="kinematic_viscosity">Viscosità cinematica</string>
+    <string name="torque">Momento meccanico</string>
+    <string name="angular_velocity">Velocità angolare</string>
+    <string name="angular_acceleration">Accelerazione angolare</string>
+    <string name="luminous_intensity">Intensità luminosa</string>
+    <string name="fuel_consumption">Consumo di carburante</string>
 
     <!-- Conversion Categories -->
-    <string name="dimension">Размерность</string>
-    <string name="mechanics">Механика</string>
-    <string name="energy">Энергия</string>
-    <string name="motion">Движение</string>
-    <string name="useful">Полезное</string>
-    <string name="electricity">Электричество</string>
-    <string name="photometry">Фотометрия</string>
-    <string name="radioactivity">Радиоактивность</string>
-    <string name="magnetism">Магнетизм</string>
-    <string name="chemistry">Химия</string>
-    <string name="acoustics">Акустика</string>
+    <string name="dimension">Dimensionalità</string>
+    <string name="mechanics">Meccanica</string>
+    <string name="energy">Energia</string>
+    <string name="motion">Mozione</string>
+    <string name="useful">Utile</string>
+    <string name="electricity">Elettricità</string>
+    <string name="photometry">Fotometria</string>
+    <string name="radioactivity">Radioattività</string>
+    <string name="magnetism">Magnetismo</string>
+    <string name="chemistry">Chimica</string>
+    <string name="acoustics">Acustica</string>
 </resources>
