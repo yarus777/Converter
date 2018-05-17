@@ -46,7 +46,7 @@
             android:value="@string/aff_id"/>
         <meta-data
             android:name="com.inappertising.ads.APPMETRIC_KEY"
-            android:value="8598fdb4-5ee0-4332-8a5a-41c45a90949d" />
+            android:value="@string/appmetric_key" />
 
     </application>
 

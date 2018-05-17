@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Заголовки фрагментов -->
-    <string name="main_fragment_title">Конвертер величин</string>
+    <string name="main_fragment_title">Einheiten konverter</string>
     <string name="settings_fragment_title">Einstellungen</string>
     <string name="favorites_fragment_title">Favoriten</string>
     <!-- -->
@@ -10,19 +10,19 @@
     <string name="cancel_dialog_text">Annullierung</string>
     <string name="yes_dialog_text">Ja</string>
     <string name="create_dialog_text">Erstellen</string>
-    <string name="quit_text">Вы уверены, что хотите выйти?</string>
+    <string name="quit_text">Willst du wirklich möchte ausgehen?</string>
 
     <string name="default_number_decimals">4</string>
     <string name="default_group_separator">Nein</string>
     <string name="default_decimal_separator">.</string>
 
-    <string name="prefs_title_formatting">Форматирование</string>
-    <string name="prefs_summary_number_decimals">Задайте количество десятичных знаков, отображаемых  в сконвертированном значении</string>
-    <string name="prefs_title_number_decimals">Число десятичных знаков</string>
-    <string name="prefs_summary_group_separator">Задайте разделитель групп разрядов, отображаемый в сконвертированном значении</string>
-    <string name="prefs_title_group_separator">Разделитель групп разрядов</string>
-    <string name="prefs_summary_decimal_separator">Задайте десятичный разделитель, отображаемый в сконвертированном значении</string>
-    <string name="prefs_title_decimal_separator">Десятичный разделитель</string>
+    <string name="prefs_title_formatting">Formatierung</string>
+    <string name="prefs_summary_number_decimals">Geben Sie die Anzahl der Dezimalstellen an, die im konvertierten Wert angezeigt werden</string>
+    <string name="prefs_title_number_decimals">Anzahl der Dezimalstellen</string>
+    <string name="prefs_summary_group_separator">Geben Sie das Trennzeichen der Zifferngruppen, der im konvertierten Wert angezeigten werden </string>
+    <string name="prefs_title_group_separator">Trennzeichen der Zifferngruppen</string>
+    <string name="prefs_summary_decimal_separator">Geben Sie das Dezimaltrennzeichen, das im konvertierten Wert angezeigt werden </string>
+    <string name="prefs_title_decimal_separator">Dezimaltrennzeichen</string>
     <string name="group_separator_none">Nein</string>
 
     <string name="txt_settings">Einstellungen</string>
@@ -43,9 +43,9 @@
     <string name="sq_yard">Quadratyard</string>
     <string name="sq_foot">Quadratfuß</string>
     <string name="sq_inch">Quadratzoll</string>
-    <string name="rood">Rood (Viertelmorgen)</string>
-    <string name="acre">Acr</string>
-    <string name="sq_chain">Quadratkettenlänge</string>
+    <string name="rood">Viertelmorgen</string>
+    <string name="acre">Morgen</string>
+    <string name="sq_chain">Quadratkette</string>
     <string name="sq_rod">Quadratrute</string>
     <string name="sq_mil">Quadratmillizoll</string>
 
@@ -62,20 +62,20 @@
     <string name="angstrom">Ångström</string>
     <string name="picometre">Picometer</string>
     <string name="mile">Meile</string>
-    <string name="furlong">Furlong (Furchenlänge)</string>
-    <string name="chain">Chain (Kettenlänge)</string>
+    <string name="furlong">Furchenlänge</string>
+    <string name="chain">Kette</string>
     <string name="rod">Rute</string>
     <string name="yard">Yard</string>
     <string name="foot">Fuß</string>
-    <string name="link">Link</string>
+    <string name="link">Kettenglied</string>
     <string name="hand">Hand (Handbreit)</string>
     <string name="inch">Zoll</string>
     <string name="thou">Тоу</string>
     <string name="nautical_mile">Seemeile</string>
-    <string name="cable">Cable (Kabellänge)</string>
-    <string name="fathom">Nautischer Faden</string>
-    <string name="land_league">Land-League</string>
-    <string name="nautical_league">Nautische League</string>
+    <string name="cable">Kabellänge</string>
+    <string name="fathom">Faden</string>
+    <string name="land_league">Land Wegstunde</string>
+    <string name="nautical_league">Nautische Wegstunde</string>
     <string name="verst">Werst</string>
     <string name="mezhevaya_verst">Meschewaja werst</string>
     <string name="kosaya_sazhen">Kosaja saschen</string>
@@ -98,9 +98,9 @@
     <string name="nanogram">Nanogramm</string>
     <string name="long_ton">Tonne (Lang)</string>
     <string name="short_ton">Tonne (Kurz)</string>
-    <string name="hundredweigth">Der lange Zentner</string>
-    <string name="cental">Ein kurzer Centner</string>
-    <string name="quarter">Viertel von einem Centner</string>
+    <string name="hundredweigth">Long Hundredweight</string>
+    <string name="cental">Short Hundredweight</string>
+    <string name="quarter">Quarter</string>
     <string name="stone">Stein</string>
     <string name="pound">Pfund</string>
     <string name="pound_troy">Pfund (Troy)</string>
@@ -141,18 +141,18 @@
     <string name="decalitre">Dekaliter</string>
     <string name="litre">Liter</string>
     <string name="millilitre">Milliliter</string>
-    <string name="barrel">Barrel (USA)</string>
-    <string name="barrel_uk">Barrel (Großbritannien)</string>
-    <string name="oil_barrel">Barrel (Öl)</string>
-    <string name="bushel">Bushel</string>
+    <string name="barrel">Fass (USA)</string>
+    <string name="barrel_uk">Fass (Großbritannien)</string>
+    <string name="oil_barrel">Erdölbarrel</string>
+    <string name="bushel">Scheffel</string>
     <string name="gallon">Flüssige Gallone (USA)</string>
     <string name="gallon_dry">Trocken Gallone (USA)</string>
     <string name="gallon_uk">Gallone (Großbritannien)</string>
     <string name="quart">Flüssige Quart (USA)</string>
     <string name="quart_dry">Trocken Quart(USA)</string>
     <string name="quart_uk">Quart (Großbritannien)</string>
-    <string name="pint">Pinte (USA)</string>
-    <string name="pint_uk">Pinte (Großbritannien)</string>
+    <string name="pint">Pint (USA)</string>
+    <string name="pint_uk">Pint (Großbritannien)</string>
     <string name="cup">Tasse</string>
     <string name="gill">Gill</string>
     <string name="fluid_ounce">Flüssigunze (USA)</string>
@@ -165,8 +165,8 @@
     <string name="tablespoon_uk">Esslöffel(Großbritannien)</string>
     <string name="dessertspoon_us">Dessertlöffel (USA)</string>
     <string name="dessertspoon_uk">Dessertlöffel (Großbritannien)</string>
-    <string name="fluid_dram">Flüssige Drachme</string>
-    <string name="fluid_scruple">Flüssiges Scruple</string>
+    <string name="fluid_dram">Flüssigdrachme</string>
+    <string name="fluid_scruple">Flüssigskrupel</string>
     <string name="min">Minim</string>
     <string name="drop">Tropfen</string>
     <string name="drop_imperial">Tropfen (metrisch)</string>
@@ -262,14 +262,14 @@
     <string name="nanosecond">Nanosekunde</string>
 
     <!-- Temperature -->
-    <string name="celsius">Celsius</string>
-    <string name="fahrenheit">Fahrenheit</string>
-    <string name="kelvin">Kelvin</string>
-    <string name="rankine">Rankine</string>
-    <string name="delisle">Delisle</string>
-    <string name="newton">Newton</string>
-    <string name="reaumur">Réaumur</string>
-    <string name="romer">Rømer</string>
+    <string name="celsius">Grad Celsius</string>
+    <string name="fahrenheit">Grad Fahrenheit</string>
+    <string name="kelvin">Grad Kelvin</string>
+    <string name="rankine">Grad Rankine</string>
+    <string name="delisle">Grad Delisle</string>
+    <string name="newton">Grad Newton</string>
+    <string name="reaumur">Grad Réaumur</string>
+    <string name="romer">Grad Rømer</string>
 
     <!-- Energy -->
     <string name="joule">Joule</string>
@@ -456,7 +456,7 @@
     <string name="lb_fts">Pfund pro Fuß pro Sekunde</string>
     <string name="lbfs_sqft">Pfund-Kraft-Sekunde pro Quadratfuß</string>
     <string name="lbfs_sqin">Pfund-Kraft-Sekunde pro Quadratzoll</string>
-    <string name="pds_sqft">Poundal-Sekunde pro Quadratmeter</string>
+    <string name="pds_sqft">Poundal-Sekunde pro Quadratfuß</string>
     <string name="slug_ft_s">Slug pro Fuß pro Sekunde</string>
     <string name="g_cm_s">Gramm pro Zentimeter pro Sekunde</string>
     <string name="kgfs_sqm">Kilogramm-Kraft-Sekunde pro Quadratmeter</string>
@@ -535,20 +535,20 @@
     <string name="decanewton_metre">Dekanewtonmeter</string>
     <string name="kilonewton_metre">Kilonewtonmeter</string>
     <string name="newton_centimetre">Newtonzentimeter</string>
-    <string name="m_kgf">Meter-Kilogramm-Kraft</string>
-    <string name="m_gf">Meter-Gramm-Kraft</string>
-    <string name="cm_kgf">Zentimeter-Kilogramm-Kraft</string>
-    <string name="cm_gf">Zentimeter-Gramm-Kraft</string>
-    <string name="ft_lb_f">Fuß-Pfund-Kraft</string>
-    <string name="ft_pdl">Fuß-Poundal</string>
-    <string name="in_lb_f">Zoll-Pfund-Kraft</string>
+    <string name="m_kgf">Meter Kilogramm-Kraft</string>
+    <string name="m_gf">Meter Gramm-Kraft</string>
+    <string name="cm_kgf">Zentimeter Kilogramm-Kraft</string>
+    <string name="cm_gf">Zentimeter Gramm-Kraft</string>
+    <string name="ft_lb_f">Fuß Pfund-Kraft</string>
+    <string name="ft_pdl">Fuß Poundal</string>
+    <string name="in_lb_f">Zoll Pfund-Kraft</string>
 
     <!-- Angular velocity -->
     <string name="rev_week">Umdrehungen pro Woche</string>
     <string name="rev_day">Umdrehungen pro Tag</string>
     <string name="rev_h">Umdrehungen pro Stunde</string>
     <string name="rev_min">Umdrehungen pro Minute</string>
-    <string name="rev_sec">Umdrehungen pro секунду</string>
+    <string name="rev_sec">Umdrehungen pro Sekunde</string>
     <string name="rad_week">Radiant pro Woche</string>
     <string name="rad_day">Radiant pro Tag</string>
     <string name="rad_h">Radiant pro Stunde</string>
@@ -561,18 +561,18 @@
     <string name="deg_sec">Grad pro Sekunde</string>
 
     <!-- Angular acceleration -->
-    <string name="rad_sqh">Radiant pro Sekunde pro Stunde</string>
-    <string name="rad_sqmin">Radiant pro Sekunde pro Minute</string>
-    <string name="rad_sqsec">Radiant pro Sekunde pro Sekunde</string>
-    <string name="rev_sqh">Umdrehungen pro Sekunde pro Stunde</string>
-    <string name="rev_sqmin">Umdrehungen pro Sekunde pro Minute</string>
-    <string name="rev_sqsec">Umdrehungen pro Sekunde pro Sekunde</string>
-    <string name="rev_minsec">Umdrehungen pro Minute pro Sekunde</string>
-    <string name="rev_hmin">Umdrehungen pro Stunde pro Minute</string>
+    <string name="rad_sqh">Radiant pro Quadrastunde</string>
+    <string name="rad_sqmin">Radiant pro Quadraminute</string>
+    <string name="rad_sqsec">Radiant pro Quadrasekunde</string>
+    <string name="rev_sqh">Umdrehungen pro Quadrastunde</string>
+    <string name="rev_sqmin">Umdrehungen pro Quadraminute</string>
+    <string name="rev_sqsec">Umdrehungen pro Quadrasekunde</string>
+    <string name="rev_minsec">Umdrehungen pro Minute Sekunde</string>
+    <string name="rev_hmin">Umdrehungen pro Stunde Minute</string>
 
     <!-- Luminous intensity -->
     <string name="candela">Candela</string>
-    <string name="candle_ger">Kerze</string>
+    <string name="candle_ger">Vereinskerze</string>
     <string name="candle_uk">Kerze (Großbritannien)</string>
     <string name="dec_candle">Dezimale kerze</string>
     <string name="candle_pen">Penta Kerze</string>

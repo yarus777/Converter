@@ -456,7 +456,7 @@
     <string name="lb_fts">Фунт на фут-секунду</string>
     <string name="lbfs_sqft">Фунт-сила-секунда на квадратный фут</string>
     <string name="lbfs_sqin">Фунт-сила-секунда на квадратный дюйм</string>
-    <string name="pds_sqft">Паундаль-секунда на квадратный метр</string>
+    <string name="pds_sqft">Паундаль-секунда на квадратный фут</string>
     <string name="slug_ft_s">Слаг на фут в секунду</string>
     <string name="g_cm_s">Грамм на сантиметр в секунду</string>
     <string name="kgfs_sqm">Килограмм-сила-секунда на квадратный метр</string>
@@ -535,13 +535,13 @@
     <string name="decanewton_metre">Деканьютон метр</string>
     <string name="kilonewton_metre">Килоньютон метр</string>
     <string name="newton_centimetre">Ньютон сантиметр</string>
-    <string name="m_kgf">Метр-килограмм сила</string>
-    <string name="m_gf">Метр-грамм сила</string>
-    <string name="cm_kgf">Сантиметр-килограмм сила</string>
-    <string name="cm_gf">Сантиметр-грамм сила</string>
-    <string name="ft_lb_f">Фут-фунт сила</string>
-    <string name="ft_pdl">Фут-паундаль</string>
-    <string name="in_lb_f">Дюйм-фунт сила</string>
+    <string name="m_kgf">Метр килограмм-сила</string>
+    <string name="m_gf">Метр грамм-сила</string>
+    <string name="cm_kgf">Сантиметр килограмм-сила</string>
+    <string name="cm_gf">Сантиметр грамм-сила</string>
+    <string name="ft_lb_f">Фут фунт-сила</string>
+    <string name="ft_pdl">Фут паундаль</string>
+    <string name="in_lb_f">Дюйм фунт-сила</string>
 
     <!-- Angular velocity -->
     <string name="rev_week">Оборот в неделю</string>
@@ -561,11 +561,11 @@
     <string name="deg_sec">Градус в секунду</string>
 
     <!-- Angular acceleration -->
-    <string name="rad_sqh">Радиан в секунду за час</string>
-    <string name="rad_sqmin">Радиан в секунду за минуту</string>
+    <string name="rad_sqh">Радиан в час за час</string>
+    <string name="rad_sqmin">Радиан в минуту за минуту</string>
     <string name="rad_sqsec">Радиан в секунду за секунду</string>
-    <string name="rev_sqh">Оборот в секунду за час</string>
-    <string name="rev_sqmin">Оборот в секунду за минуту</string>
+    <string name="rev_sqh">Оборот в час за час</string>
+    <string name="rev_sqmin">Оборот в минуту за минуту</string>
     <string name="rev_sqsec">Оборот в секунду за секунду</string>
     <string name="rev_minsec">Оборот в минуту за секунду</string>
     <string name="rev_hmin">Оборот в час за минуту</string>

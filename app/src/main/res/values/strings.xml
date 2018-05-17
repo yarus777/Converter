@@ -1,4 +1,6 @@
 <resources>
+    <string name="app_ver" translatable="false">v 1.1</string>
+
     <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
     <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
 
@@ -103,7 +105,7 @@
     <string name="nanogram">Nanogram</string>
     <string name="long_ton">Ton (long)</string>
     <string name="short_ton">Ton (short)</string>
-    <string name="hundredweigth">Hundredweigth (long)</string>
+    <string name="hundredweigth">Hundredweigth (imperial)</string>
     <string name="cental">Cental</string>
     <string name="quarter">Quarter</string>
     <string name="stone">Stone</string>
@@ -540,13 +542,13 @@
     <string name="decanewton_metre">Decanewton metre</string>
     <string name="kilonewton_metre">Kilonewton metre</string>
     <string name="newton_centimetre">Newton centimetre</string>
-    <string name="m_kgf">Metre-kilogram force</string>
-    <string name="m_gf">Metre-gram force</string>
-    <string name="cm_kgf">Centimetre-kilogram force</string>
-    <string name="cm_gf">Centimetre-gram force</string>
-    <string name="ft_lb_f">Foot-pound force</string>
-    <string name="ft_pdl">Foot-poundal</string>
-    <string name="in_lb_f">Inch-pound force</string>
+    <string name="m_kgf">Metre kilogram-force</string>
+    <string name="m_gf">Metre gram-force</string>
+    <string name="cm_kgf">Centimetre kilogram-force</string>
+    <string name="cm_gf">Centimetre gram-force</string>
+    <string name="ft_lb_f">Foot-pound-force</string>
+    <string name="ft_pdl">Foot poundal</string>
+    <string name="in_lb_f">Inch pound-force</string>
 
     <!-- Angular velocity -->
     <string name="rev_week">Revolution per week</string>

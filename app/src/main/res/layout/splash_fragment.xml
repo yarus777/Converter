@@ -37,7 +37,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginBottom="23dp"
         android:gravity="center"
-        android:text="v 1.0"
+        android:text="@string/app_ver"
         android:textColor="@color/settings_subtext" />
 
 
